@@ -1,9 +1,9 @@
 # Language - Python
-# Date solved - 29/04/2023
+# Date solved - 19/04/2023
 
 # - Solution 1
 # - Compare each item with each
-# - Complexity O(n pow 2)
+# - Time Complexity O(n pow 2)
 
 class Solution(object):
     def twoSum(self, nums, target):
@@ -19,7 +19,7 @@ class Solution(object):
 # - Iterate through the array only once
 #   save seen values in a dictionary and check the current item 
 #   as well as the difference if we have seen it before
-# - Complexity O(n)
+# - Time Complexity O(n)
 		
 class Solution(object):
     def twoSum(self, nums, target):
