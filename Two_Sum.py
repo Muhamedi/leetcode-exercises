@@ -2,8 +2,8 @@
 # Date solved - 19/04/2023
 
 # - Solution 1
-# - Compare each item with each
 # - Time Complexity O(n pow 2)
+# - Explanation: Compare each item with each
 
 class Solution(object):
     def twoSum(self, nums, target):
@@ -16,10 +16,10 @@ class Solution(object):
                 seen[nums[idx]] = idx
 
 # - Solution 2
-# - Iterate through the array only once
+# - Time Complexity O(n)
+# - Explanation: Iterate through the array only once
 #   save seen values in a dictionary and check the current item 
 #   as well as the difference if we have seen it before
-# - Time Complexity O(n)
 		
 class Solution(object):
     def twoSum(self, nums, target):
