@@ -1,6 +1,11 @@
 # Language - Python
 # Date solved - 19/04/2023
 
+# - Problem description
+#   Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+#   You may assume that each input would have exactly one solution, and you may not use the same element twice.
+#   You can return the answer in any order.
+
 # - Solution 1
 # - Time Complexity O(n pow 2)
 # - Explanation: Compare each item with each
