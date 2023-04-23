@@ -1,6 +1,10 @@
 # Language - Python
 # Date solved - 22/04/2023
 
+# - Problem description
+#   Given an integer x, return true if x is a 
+#   palindrome, and false otherwise. 
+
 # - Solution 1
 # - Time Complexity O(n)
 # - Explanation: Reverse the string and compare with the original
